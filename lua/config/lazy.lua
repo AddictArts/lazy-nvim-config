@@ -63,6 +63,7 @@ P = function(v)
   return v
 end
 
+-- telescope function on <CR> tab and shift tab to select and open as buffers
 local select_one_or_multi = function(prompt_bufnr)
   local picker = require("telescope.actions.state").get_current_picker(prompt_bufnr)
   local multi = picker:get_multi_selection()

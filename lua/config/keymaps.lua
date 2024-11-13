@@ -6,6 +6,7 @@ local map = vim.keymap.set
 local api = vim.api
 local lsp = vim.lsp
 local create_user_command = api.nvim_create_user_command
+local this_os = vim.uv.os_uname().sysname
 
 map("n", "<leader>si", "<cmd>Telescope treesitter<CR>", { desc = "List Treesitter ..." })
 
@@ -19,3 +20,9 @@ api.nvim_set_keymap(
   "<cmd>InlayHintsToggle<CR>",
   { desc = "Toggle inlay hints", noremap = true, silent = true }
 )
+
+-- keywordprg Windows doesn't have man and it was mapping to "man -s"
+if this_os:find("Windows_NT") then
+  -- remove the mapping
+  vim.keymap.del("n", "<leader>K")
+end
