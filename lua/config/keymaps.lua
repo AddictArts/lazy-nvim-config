@@ -8,6 +8,7 @@ local lsp = vim.lsp
 local create_user_command = api.nvim_create_user_command
 local this_os = vim.uv.os_uname().sysname
 
+-- Add keymap for the treesitter via Telescope
 map("n", "<leader>si", "<cmd>Telescope treesitter<CR>", { desc = "List Treesitter ..." })
 
 create_user_command("InlayHintsToggle", function()
