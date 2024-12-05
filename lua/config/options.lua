@@ -6,7 +6,7 @@ local this_os = vim.uv.os_uname().sysname
 
 if this_os:find("Windows_NT") then
   -- Windows powershell use pwsh.exe
-  LazyVim.terminal.setup("pwsh")
+  LazyVim.terminal.setup("pwsh.exe")
 end
 
 -- disable zig fmt on save since it currently errors
