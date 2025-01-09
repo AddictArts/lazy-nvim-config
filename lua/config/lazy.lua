@@ -90,3 +90,10 @@ require("telescope").setup({
     },
   },
 })
+
+-- open all files/bufs whether single or multiple
+local fzf = require("fzf-lua")
+local config = fzf.config
+local actions = fzf.actions
+
+config.defaults.actions.files["enter"] = actions.file_edit
