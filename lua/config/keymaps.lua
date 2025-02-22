@@ -22,6 +22,8 @@ api.nvim_set_keymap(
   { desc = "Toggle inlay hints", noremap = true, silent = true }
 )
 
+api.nvim_set_keymap("i", "jj", "<ESC>", { noremap = false })
+
 -- keywordprg Windows doesn't have man and it was mapping to "man -s"
 if this_os:find("Windows_NT") then
   -- remove the mapping
