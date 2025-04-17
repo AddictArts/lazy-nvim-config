@@ -48,7 +48,7 @@
   "nvim-deck": { "branch": "main", "commit": "c9403cef32b9377faf9152b8de36859cbefcced4" },
   "nvim-jdtls": { "branch": "master", "commit": "5ecf13c53c9a66ee97c200970029ab2ebe1c1112" },
   "nvim-lint": { "branch": "master", "commit": "3615c26c4922ae5f7366f0c1943a0e7cece04325" },
-  "nvim-lspconfig": { "branch": "master", "commit": "cb5680882ed1f18e67429516e45b810de3d148b8" },
+  "nvim-lspconfig": { "branch": "master", "commit": "a56f4b9dde5daf3d4c7bb50cf78ab609537f2259" },
   "nvim-nio": { "branch": "master", "commit": "21f5324bfac14e22ba26553caf69ec76ae8a7662" },
   "nvim-snippets": { "branch": "main", "commit": "56b4052f71220144689caaa2e5b66222ba5661eb" },
   "nvim-treesitter": { "branch": "master", "commit": "684eeac91ed8e297685a97ef70031d19ac1de25a" },
