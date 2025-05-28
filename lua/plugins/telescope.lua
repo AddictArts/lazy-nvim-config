@@ -1,4 +1,7 @@
 -- Currently not using telescope, was optional for neogit, but it is using fzf-lua.
+if true then
+  return {}
+end
 
 -- telescope function on <CR> tab and shift tab to select and open as buffers
 -- local select_one_or_multi = function(prompt_bufnr)
