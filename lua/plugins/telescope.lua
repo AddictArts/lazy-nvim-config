@@ -3,6 +3,10 @@ if true then
   return {}
 end
 
+-- Add keymap for the treesitter via Telescope
+-- local map = vim.keymap.set
+-- map("n", "<leader>sI", "<cmd>Telescope treesitter<CR>", { desc = "List Treesitter ..." })
+
 -- telescope function on <CR> tab and shift tab to select and open as buffers
 -- local select_one_or_multi = function(prompt_bufnr)
 --   local picker = require("telescope.actions.state").get_current_picker(prompt_bufnr)
