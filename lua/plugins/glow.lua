@@ -3,6 +3,6 @@ return {
   config = true,
   cmd = "Glow",
   opts = {
-    -- glow_path = "C:/Users/E26368/AppData/Local/Microsoft/WinGet/Links/glow.exe",
+    -- glow_path = "C:/Users/<user>/AppData/Local/Microsoft/WinGet/Links/glow.exe",
   },
 }
