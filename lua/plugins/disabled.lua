@@ -5,4 +5,5 @@ return {
   { "garymjr/nvim-snippets", enabled = false },
   -- prefer the command prompt in the legacy place, botton left
   { "folke/noice.nvim", enabled = false },
+  { "vim-denops/denops.vim", enabled = false },
 }
